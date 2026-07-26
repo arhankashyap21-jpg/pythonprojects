@@ -1,11 +1,6 @@
-name = "Arhan"
+shopping_list = ["milk","eggs","bread","butter"]
+print("Shopping List:")
+print(shopping_list[0])
+print(shopping_list[1])
+print(shopping_list[0:2])
 
-print(name+" is a 18 years old.")
-
-sentence = "%s %s was the president of the US."
-
-print(sentence % ("Barack", "Obama"))
-
-sentence = "%s is %d years old."
-
-print(sentence % ("Arhan", 18))
