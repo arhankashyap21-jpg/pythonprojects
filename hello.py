@@ -1,24 +1,11 @@
-age1 = 18
-age2 = 20
+name = "Arhan"
 
-print(age1+age2)
+print(name+" is a 18 years old.")
 
-age1 = 12
-age2 = 15
+sentence = "%s %s was the president of the US."
 
-print(age1- age2)
+print(sentence % ("Barack", "Obama"))
 
-age1 = 10
-age2 = 5
+sentence = "%s is %d years old."
 
-print(age1*age2)
-
-age1 = 25 
-age2 = 10
-
-print(age1/age2)
-
-first_name = "Arhan"
-last_name = "Kashyap"
-
-print(first_name + " " + last_name) 
+print(sentence % ("Arhan", 18))
