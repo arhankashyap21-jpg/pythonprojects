@@ -1,16 +1,15 @@
-shopping_list = ["milk", "eggs", "bread", "butter"]
-shopping_list.append("cheese")
-print(shopping_list)
+students ={ "bob": 25, "alice": 22, "john": 23 }
 
-del shopping_list[1]
-print(shopping_list)
+print(students)
+print(students["bob"])
+print(students["alice"])
+print(students["john"])
 
-print(len(shopping_list))
+students["bob"] = 30
+print(students["bob"])
 
-shopping_list2 = ["apples", "bananas", "oranges"]
-print(shopping_list + shopping_list2)
+del students["alice"]
+print(students)
 
-list_num = [1, 2, 3, 4, 5]
-
-print(max(list_num))
-print(min(list_num))
+students ={ "bob":19, "bob":20, "bob":25}
+print(students)
