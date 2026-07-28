@@ -1,30 +1,28 @@
-names =["Arhan","Parash","Arnab"]
+if 5>3:
+    print("hello")
 
-print(names[1])
+if 3<2:
+    print("hello")
 
-sports = ["basketball", "cricket"]
-sports[1] = "football"
+if 3<2:
+    print("hello")
+else:
+    print("condition is not true")
 
-print(sports)
+age =16
+if age <=15:
+    print("you are younger than 16")
+elif age ==16:
+    print("you are 16")
+else:
+    print("you are older than 16")
 
-nums =[1,2,3,4,5,6,7,8]
-del nums[4]
+age =16
+if age <13:
+    print("you are a child")
+elif age >=13 and age <=18:
+    print("you are a teenager")
+else:
+    print("you are an adult")
 
-print(nums)
 
-num1 = [1, 2, 3]
-num2 = [4, 5, 6]
-num3 = [num1 + num2]
-
-print(num3)
-
-students ={"Arhan": 50, "Jack": 60, "jim": 70}
-
-print(students["Arhan"])
-
-data ={"rachel": 20, "rahul": 30, "anna": 15}
-del data["rahul"]
-
-print(data)
-
-      
