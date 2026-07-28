@@ -1,23 +1,10 @@
-def hello_world():
-    print("hello world")
+print(abs(-23))
+print(abs(-54))
 
-hello_world()
+print(bool(0))
+print(bool(100))
+print(bool(None))
 
-def greeting(name):
-    print("hi"+name+"!")
-greeting("Arhan")
+print(dir('hello'))
 
-def add (num1,num2):
-    print(num1+num2)
-add(10,15)
 
-def add(num1,num2):
-    return num1+num2
-num_sum =add(12,34)
-print(num_sum)
-
-def add(num1,num2):
-    return num1+num2
-def mul(num1,num2):
-    return num1*num2
-print(mul(add(1,2),add(3,4)))
