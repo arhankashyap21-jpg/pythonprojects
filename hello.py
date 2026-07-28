@@ -1,22 +1,9 @@
-list1 =["apples","bananas","cherries"]
-tup1 =(2,6,10)
+c=0
+while c<5:
+    c=c+1
+    print(c)
 
-for item in list1:
-    print(item)
-
-for i in range (0,10):
-    print(i)
-
-for i in range (1,11):
-    print(i)
-
-for i in range (0,11,2):
-    print(i)
-
-for i in range (5,51,5):
-    print(i)
-
-for i in range (0,5):
-    for j in range (0,3):
-        print(i*j)
-        
+c=0
+while c<10:
+    c=c+2
+    print(c)
