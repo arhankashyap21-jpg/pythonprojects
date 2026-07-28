@@ -1,15 +1,13 @@
-students ={ "bob": 25, "alice": 22, "john": 23 }
+tup = ("oranges","apples","bananas")
 
-print(students)
-print(students["bob"])
-print(students["alice"])
-print(students["john"])
+print(tup)
 
-students["bob"] = 30
-print(students["bob"])
+print(tup)
+print(tup[1])
+print(tup[0:2])
 
-del students["alice"]
-print(students)
+tup =("oranges","apples","bananas")
+tup2 =("milk","kiwi")
+tup3 =tup+tup2
 
-students ={ "bob":19, "bob":20, "bob":25}
-print(students)
+print(tup3)
