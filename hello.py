@@ -1,13 +1,30 @@
-tup = ("oranges","apples","bananas")
+names =["Arhan","Parash","Arnab"]
 
-print(tup)
+print(names[1])
 
-print(tup)
-print(tup[1])
-print(tup[0:2])
+sports = ["basketball", "cricket"]
+sports[1] = "football"
 
-tup =("oranges","apples","bananas")
-tup2 =("milk","kiwi")
-tup3 =tup+tup2
+print(sports)
 
-print(tup3)
+nums =[1,2,3,4,5,6,7,8]
+del nums[4]
+
+print(nums)
+
+num1 = [1, 2, 3]
+num2 = [4, 5, 6]
+num3 = [num1 + num2]
+
+print(num3)
+
+students ={"Arhan": 50, "Jack": 60, "jim": 70}
+
+print(students["Arhan"])
+
+data ={"rachel": 20, "rahul": 30, "anna": 15}
+del data["rahul"]
+
+print(data)
+
+      
