@@ -1,28 +1,22 @@
-if 5>3:
-    print("hello")
+list1 =["apples","bananas","cherries"]
+tup1 =(2,6,10)
 
-if 3<2:
-    print("hello")
+for item in list1:
+    print(item)
 
-if 3<2:
-    print("hello")
-else:
-    print("condition is not true")
+for i in range (0,10):
+    print(i)
 
-age =16
-if age <=15:
-    print("you are younger than 16")
-elif age ==16:
-    print("you are 16")
-else:
-    print("you are older than 16")
+for i in range (1,11):
+    print(i)
 
-age =16
-if age <13:
-    print("you are a child")
-elif age >=13 and age <=18:
-    print("you are a teenager")
-else:
-    print("you are an adult")
+for i in range (0,11,2):
+    print(i)
 
+for i in range (5,51,5):
+    print(i)
 
+for i in range (0,5):
+    for j in range (0,3):
+        print(i*j)
+        
