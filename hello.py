@@ -1,5 +1,3 @@
-sent ="print('hi')"
-eval(sent)
-
-sent ="print('hi')"
-exec(sent)
+print("hello"+str(100))
+print(int(123+345))
+print(float("123.45"))
