@@ -1,23 +1,8 @@
-c=0
-while c<5:
-    c=c+1
-    if c==3:
-        break
-    print(c)
-
-c=0
-while c<5:
-    c=c+1
-    if c==3:
-        continue
-    print(c)
-
-c=0
-while c<5:
-    c=c+1
-    if c==3:
-        pass
-    print(c)
-
-
+try:
+    if name >3:
+        print("hello")
+except:
+    print("error has been detected in your code")
+    
+          
     
