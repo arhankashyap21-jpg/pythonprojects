@@ -1,14 +1,28 @@
-class person:
-    def __init__(self,name,age):
-      self.name = name
-      self.age = age
+class car:
+    def __init__(self):
+        self.contact=4
+        self.seats=5
+    def drive(self):
+        print("driving a car.......")
 
-    def getName(self):
-       return self.name
-    def getAge(self):
-       return self.age
+mycar =car()
+mycar.drive()
 
-p1= person("bob",22)
 
-print(p1.getName())
-print(p1.getAge()) 
+class car:
+    def __init__(self):
+        self.wheels=4
+        self.seats=5
+    def drive(self):
+        print("driving a car")
+class sportscar(car):
+    def __init__(self):
+        super().__init__()
+        self.engine_power="1200"
+        self.seats =2
+    def drive(self):
+        print("driving a sport car.....")
+mysportscar = sportscar()
+mysportscar.drive()
+
+
